@@ -1,0 +1,27 @@
+.font-2-xs {
+  font: 500 1rem/1.5625 "Roboto", sans-serif;
+}
+.font-2-s {
+  font: 600 1.25rem/1 "Roboto", sans-serif;
+  // @include d(m) {
+  //   font-size: 1.4rem;
+  // }
+}
+.font-1-xx {
+  font: 600 1.125rem/1 "Poppins", sans-serif;
+  // @include d(s) {
+  //   font-size: 1.745rem;
+  // }
+  // @include d(m) {
+  //   font-size: 1.3rem;
+  // }
+}
+.font-1-xxl {
+  font: 600 1.25rem/1 "Poppins", sans-serif;
+  // @include d(s) {
+  //   font-size: 1.745rem;
+  // }
+  // @include d(m) {
+  //   font-size: 1.3rem;
+  // }
+}

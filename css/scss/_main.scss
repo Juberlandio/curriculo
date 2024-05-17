@@ -1,0 +1,153 @@
+.columns {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+box-sizing: border-box;
+max-width: 1070px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 64px;
+}
+.left-columns {
+width: 400px;
+border-radius: 10px;
+box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
+border: 1px solid $cor-p1;
+box-sizing: border-box;
+max-width: 1070px;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+}
+.columns-container-left {
+  place-self: flex-start;
+}
+.columns .left-columns + .left-columns { 
+margin-top: 30px;
+}
+.lista li + li {
+padding-top: 12px;
+}
+.left-columns ul {
+width: auto;
+padding: 36px 100px 59px 99px;
+position: relative;
+line-height: 1;
+} 
+.left-columns h2 {
+text-transform: uppercase;
+color: $cor-p2;
+padding: 50px 0px 0 76px;
+font-weight: 900;
+}
+.left-columns ul:after {
+content: "";
+left: 73px;
+top: 20px;
+width: 8px;
+height: 281px;
+// height: 345px;
+background: $cor-p1;
+display: block;
+margin-top: 0px;
+transition: 0.3s;
+position: absolute;
+border-radius: 10px;
+}
+.lista-unica li + li {
+padding-top: 12px;
+} 
+.lista-unica li:nth-child(even) {
+padding-bottom: 10px;
+}
+
+// Historico Profissional
+.right-columns {
+width: 640px;
+border-radius: 10px;
+box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
+border: 1px solid $cor-p1;
+box-sizing: border-box;
+max-width: 1070px;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+}
+.columns .right-columns + .right-columns { 
+margin-top: 30px;
+}
+.right-columns h2 {
+text-transform: uppercase;
+color: $cor-p2;
+padding: 50px 0px 0 76px;
+font-weight: 900;
+}
+.right-columns .lista {
+position: relative;
+}
+.right-columns .lista:after {
+content: "";
+left: 73px;
+top: 20px;
+width: 8px;
+height: 719px;
+background: $cor-p1;
+display: block;
+margin-top: 0px;
+transition: 0.3s;
+position: absolute;
+border-radius: 10px;
+}
+.right-columns h3 {
+position: relative;
+padding: 25px 72px 0 99px;
+}
+.right-columns h4 {
+padding: 17px 72px 0 99px;
+}
+.right-columns p {
+padding: 15px 72px 0 99px;
+width: 469px;
+}
+.right-columns .historico-profissional .lista-2 p:last-child {
+padding-bottom: 47px;
+}
+
+// Historico Acadêmico
+.columns-container-right {
+  place-self: flex-start;
+}
+.right-columns .formacao h3 {
+position: relative;
+padding: 46px 72px 0 99px;
+}
+.right-columns .formacao .lista-pos h3 {
+  padding: 58px 72px 0 99px;
+}
+.right-columns .formacao h4 {
+padding: 10px 0px 0 99px;
+}
+.right-columns .formacao p {
+padding: 10px 0px 0 99px;
+width: 469px;
+}
+.right-columns .formacao .lista-pos p:last-child {
+padding-bottom: 65px;
+}
+.right-columns .lista-formacao {
+position: relative;
+}
+.right-columns .lista-formacao:after {
+content: "";
+left: 73px;
+top: 35px;
+width: 8px;
+height: 256px;
+background: $cor-p1;
+display: block;
+margin-top: 0px;
+transition: 0.3s;
+position: absolute;
+border-radius: 10px;
+}
