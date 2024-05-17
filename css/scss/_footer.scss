@@ -1,42 +1,39 @@
-.sobre {
+.rodape {
 border-radius: 10px;
 box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
 border: 1px solid $cor-p1;
 box-sizing: border-box;
 max-width: 1070px;
+margin-top: 30px;
 margin-left: auto;
 margin-right: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+padding: 15px 35px;
+margin-bottom: 83px;
 border: 2px solid transparent;
 position: relative;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 7px;
 }
-.sobre h2 {
-color: $cor-p2;
-padding: 40px 0px 0px 75px;
-text-transform: uppercase;
-font-weight: 900;
-}
-.sobre p {
+.redes {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+justify-content: space-between;
+align-items: center;
 color: $cor-11;
-padding: 20px 0 53px 99px;
-letter-spacing: 1.5px;
-position: relative;
-width: 909px;
 }
-.sobre p:after {
-content: '';
-left: 73px;
-top: 16px;
-width: 8px;
-height: 85px;
-background: $cor-p1;
+.footer-final {
 display: block;
-margin-top: 0px;
-transition: 0.3s;
-position: absolute;
-border-radius: 10px;
+text-align: center;
+padding: 20px;
+background: $cor-p3;
+border-top: 1px solid $cor-8;
+color: $cor-1;
 }
-.sobre::before {
+.rodape::before {
 content: '';
 position: absolute;
 width: 0;
@@ -47,11 +44,11 @@ border: 2px solid transparent;
 box-sizing: content-box;
 z-index: -1;
 }
-.sobre::before {
+.rodape::before {
 animation: animacao 2.7s linear forwards;
 animation-delay: 3s;
 }
-.sobre::after {
+.rodape::after {
 content: '';
 position: absolute;
 width: 0;
@@ -62,7 +59,7 @@ border: 2px solid transparent;
 box-sizing: content-box;
 z-index: -1;
 }
-.sobre::after {
+.rodape::after {
 animation: animacao2 2.7s linear forwards;
 animation-delay: 3s;
 }

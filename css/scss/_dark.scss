@@ -1,0 +1,51 @@
+body.active{
+  background-color: #1B1F24;
+}
+body.active .cabecalho-bg{
+  background-color: #22272F;
+}
+body.active .cabecalho{
+  background-color: #1B1F24;
+}
+// Head
+body.active .contato li {
+  color: $cor-1;
+}
+body.active .contato li:last-child {
+  color: $cor-p1;
+}
+body.active .contato h1 {
+  color: $cor-1;
+}
+// Sobre
+body.active .sobre p {
+  color: $cor-1;
+}
+// Main
+body.active .colunas ul li {
+  color: $cor-1;
+}
+body.active .historico-profissional h3 {
+  color: $cor-1;
+}
+body.active .historico-profissional h4 {
+  color: $cor-1;
+}
+body.active .historico-profissional p {
+  color: $cor-1;
+}
+body.active .historico-profissional h3:after {
+  background: $cor-1;
+}
+body.active .formacao h3 {
+  color: $cor-1;
+}
+body.active .formacao h4 {
+  color: $cor-1;
+}
+body.active .formacao p {
+  color: $cor-1;
+}
+body.active .redes {
+  color: $cor-1;
+}
