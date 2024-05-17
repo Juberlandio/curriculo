@@ -13,13 +13,30 @@ gap: 30px;
 justify-content: center;
 align-items: center;
 padding: 65px 20px 65px 20px;
+position: relative;
 }
-.cabecalho picture img{
+.cabecalho picture img {
 width: 230px;
 height: 230px;
-border-radius: 10px;
 box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
+position: relative;
+z-index: 3;
 }
+.cabecalho::before {
+  content: '';
+  background-image: url('../assents/img/vetor.png');
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: block;
+  top: 100px;
+  left: 45px;
+  width: 204px;
+  height: 215px;
+  position: absolute;
+  z-index: 1;
+  }
+
 .contato {
 display: flex;
 flex-wrap: nowrap;
