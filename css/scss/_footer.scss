@@ -16,6 +16,9 @@ margin-bottom: 83px;
 border: 2px solid transparent;
 position: relative;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 7px;
+@include d(t) {
+  margin: 20px;
+ }
 }
 .redes {
 display: flex;

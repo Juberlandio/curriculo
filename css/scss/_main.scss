@@ -7,13 +7,19 @@ box-sizing: border-box;
 max-width: 1070px;
 margin-left: auto;
 margin-right: auto;
+@include d(t) {
+margin: 20px;
+}
+@include d(m) {
+max-width: 100%;
+display: block;
+}
 }
 .colunas section{
 border: 2px solid transparent;
 position: relative;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 7px;
 }
-
 .colunas section::before{
 content: '';
 position: absolute;
@@ -25,12 +31,10 @@ border: 2px solid transparent;
 box-sizing: content-box;
 z-index: -1;
 }
-
 .colunas section::before{
 animation: animacao 2.7s linear forwards;
 animation-delay: 3s;
 }
-
 @keyframes animacao{
 0%{
 width: 0;
@@ -100,9 +104,8 @@ border-bottom-color: #1C92FF;
 border-left-color: #1C92FF;
 }
 }
-
 .left-columns {
-width: 400px;
+max-width: 400px;
 border-radius: 10px;
 box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
 border: 1px solid $cor-p1;
@@ -110,6 +113,9 @@ box-sizing: border-box;
 margin-top: 30px;
 margin-left: auto;
 margin-right: auto;
+@include d(m) {
+max-width: 100%;
+}
 }
 .columns-container-left {
 place-self: flex-start;
@@ -117,7 +123,7 @@ place-self: flex-start;
 .colunas .left-columns + .left-columns { 
 margin-top: 30px;
 }
-.lista li{
+.lista li {
 color: $cor-11;
 }
 .lista li + li {
@@ -129,12 +135,20 @@ padding: 36px 100px 59px 99px;
 position: relative;
 line-height: 1;
 color: $cor-11;
+@include d(m) {
+padding: 20px;
+text-align: center;
+}
 } 
 .left-columns h2 {
 text-transform: uppercase;
 color: $cor-p2;
 padding: 50px 0px 0 76px;
 font-weight: 900;
+@include d(m) {
+padding: 40px 0 0 0;
+text-align: center;
+}
 }
 .left-columns ul:after {
 content: "";
@@ -148,6 +162,9 @@ margin-top: 0px;
 transition: 0.3s;
 position: absolute;
 border-radius: 10px;
+@include d(t) {
+display: none;
+}
 }
 .lista-unica li:nth-child(even) {
 padding-top: 12px;
@@ -156,7 +173,7 @@ padding-bottom: 22px;
 
 // Historico Profissional
 .right-columns {
-width: 640px;
+max-width: 640px;
 border-radius: 10px;
 box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
 border: 1px solid $cor-p1;
@@ -164,12 +181,22 @@ box-sizing: border-box;
 margin-top: 30px;
 margin-left: auto;
 margin-right: auto;
+@include d(m) {
+max-width: 100%;
+}
 }
 .right-columns .lista {
 padding: 35px 72px 0 99px;
+@include d(m) {
+  padding: 20px;
+
+  }
 }
 .right-columns .lista-2 {
 padding: 44px 72px 43px 99px;
+@include d(m) {
+  padding: 20px;
+  }
 }
 .colunas .right-columns + .right-columns { 
 margin-top: 30px;
@@ -179,6 +206,10 @@ text-transform: uppercase;
 color: $cor-p2;
 padding: 50px 0px 0 76px;
 font-weight: 900;
+@include d(m) {
+  padding: 20px 0 0 0;
+  text-align: center;
+  }
 }
 .right-columns .lista {
 position: relative;
@@ -195,6 +226,9 @@ margin-top: 0px;
 transition: 0.3s;
 position: absolute;
 border-radius: 10px;
+@include d(t) {
+display: none;
+}
 }
 .right-columns .historico-profissional h3 {
 position: relative;
@@ -220,12 +254,15 @@ color: $cor-11;
 }
 .right-columns p {
 padding-top: 10px;
-width: 469px;
+max-width: 469px;
 color: $cor-11;
+@include d(m) {
+max-width: 100%;
+}
 }
 .right-columns .historico-profissional .lista p a:last-child {
 position: relative;
-width: 100%;
+max-width: 100%;
 display: inline;
 color: $cor-p2;
 }
@@ -280,4 +317,7 @@ margin-top: 0px;
 transition: 0.3s;
 position: absolute;
 border-radius: 10px;
+@include d(t) {
+display: none;
+}
 }
