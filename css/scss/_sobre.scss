@@ -11,7 +11,7 @@ box-sizing: border-box;
 max-width: 1070px;
 margin-left: auto;
 margin-right: auto;
-@include d(f) {
+@include d(s) {
 margin: 20px 20px 0px 20px;
 }
 }
@@ -20,7 +20,7 @@ color: $cor-p2;
 padding: 40px 0px 0px 50px;
 text-transform: uppercase;
 font-weight: 900;
-@include d(f) {
+@include d(s) {
 padding: 20px 20px 0px 20px;
 text-align: left;
 }
@@ -31,7 +31,7 @@ padding: 20px 0 53px 76px;
 letter-spacing: 1.5px;
 position: relative;
 max-width: 909px;
-@include d(f) {
+@include d(s) {
 max-width: 100%;
 padding: 20px 20px 20px 40px;
 }
@@ -48,7 +48,7 @@ margin-top: 0px;
 transition: 0.3s;
 position: absolute;
 border-radius: 10px;
-@include d(f) {
+@include d(s) {
 left: 20px;
 top: 16px;
 width: 8px;

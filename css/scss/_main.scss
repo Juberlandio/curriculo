@@ -7,7 +7,7 @@ box-sizing: border-box;
 max-width: 1070px;
 margin-left: auto;
 margin-right: auto;
-@include d(f) {
+@include d(s) {
 margin: 20px;
 max-width: 100%;
 display: block;
@@ -112,7 +112,7 @@ margin-top: 30px;
 margin-left: auto;
 margin-right: auto;
 display: block;
-@include d(f) {
+@include d(s) {
 width: 100%;
 }
 }
@@ -133,7 +133,7 @@ padding: 36px 0px 59px 76px;
 position: relative;
 line-height: 1;
 color: $cor-11;
-@include d(f) {
+@include d(s) {
 padding: 20px 20px 20px 40px;
 text-align: left;
 }
@@ -147,7 +147,7 @@ text-transform: uppercase;
 color: $cor-p2;
 padding: 40px 0px 0px 50px;
 font-weight: 900;
-@include d(f) {
+@include d(s) {
 padding: 20px 20px 0px 20px;
 text-align: left;
 }
@@ -164,7 +164,7 @@ margin-top: 0px;
 transition: 0.3s;
 position: absolute;
 border-radius: 10px;
-@include d(f) {
+@include d(s) {
 left: 20px;
 top: 16px;
 width: 8px;
@@ -187,13 +187,13 @@ margin-top: 30px;
 margin-left: auto;
 margin-right: auto;
 display: block;
-@include d(f) {
+@include d(s) {
 width: 100%;
 }
 }
 .right-columns .lista {
 padding: 30px 0 30px 76px;
-@include d(f) {
+@include d(s) {
 padding: 20px 20px 20px 40px;
 }
 }
@@ -205,7 +205,7 @@ text-transform: uppercase;
 color: $cor-p2;
 padding: 40px 0px 0px 50px;
 font-weight: 900;
-@include d(f) {
+@include d(s) {
 padding: 20px 20px 0px 20px;
 text-align: left;
 }
@@ -225,7 +225,7 @@ margin-top: 0px;
 transition: 0.3s;
 position: absolute;
 border-radius: 10px;
-@include d(f) {
+@include d(s) {
 left: 20px;
 top: 16px;
 width: 8px;
@@ -233,8 +233,8 @@ height: calc(100% - 30px);
 }
 }
 .right-columns .lista-2 {
-padding: 30px 0 30px 76px;
-@include d(f) {
+padding: 30px 0 24px 76px;
+@include d(s) {
 padding: 20px 20px 20px 40px;
 }
 }
@@ -253,7 +253,7 @@ margin-top: 0px;
 transition: 0.3s;
 position: absolute;
 border-radius: 10px;
-@include d(f) {
+@include d(s) {
 left: 20px;
 top: 16px;
 width: 8px;
@@ -286,7 +286,7 @@ color: $cor-11;
 padding-top: 10px;
 max-width: 469px;
 color: $cor-11;
-@include d(f) {
+@include d(s) {
 max-width: 100%;
 }
 }
@@ -315,7 +315,7 @@ place-self: flex-start;
 }
 .right-columns .formacao-container{
 padding: 30px 0 43px 76px;
-@include d(f) {
+@include d(s) {
 padding: 20px 20px 20px 40px;
 }
 }
@@ -325,7 +325,7 @@ color: $cor-11;
 font-weight: 400;
 }
 .right-columns .formacao .lista-pos h3 {
-padding-top: 58px;
+padding-top: 69px;
 font-weight: 400;
 }
 .right-columns .formacao p {
@@ -347,7 +347,7 @@ margin-top: 0px;
 transition: 0.3s;
 position: absolute;
 border-radius: 10px;
-@include d(f) {
+@include d(s) {
 left: -20px;
 top: 0px;
 width: 8px;
@@ -369,7 +369,7 @@ margin-top: 0px;
 transition: 0.3s;
 position: absolute;
 border-radius: 10px;
-@include d(f) {
+@include d(s) {
 left: -20px;
 top: 50px;
 width: 8px;
