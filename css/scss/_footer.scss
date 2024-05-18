@@ -2,26 +2,21 @@
 border-radius: 10px;
 box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
 border: 1px solid $cor-p1;
-box-sizing: border-box;
-max-width: 1070px;
-margin-top: 30px;
-margin-left: auto;
-margin-right: auto;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
 padding: 15px 35px;
-margin-bottom: 83px;
+margin: 30px 20px 83px 20px;
 border: 2px solid transparent;
 position: relative;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 7px;
 @include d(t) {
-  display: block;
-  max-width: 100%;
-  margin: 30px 20px 83px 20px;
-  padding: 0px;
- }
+display: block;
+max-width: 100%;
+margin: 30px 20px 83px 20px;
+padding: 0px;
+}
 }
 .redes {
 display: flex;
@@ -31,11 +26,11 @@ justify-content: space-between;
 align-items: center;
 color: $cor-11;
 @include d(t) {
-  justify-content: left;
-  padding: 10px;
-  margin: 0 auto;
-  width: auto;
- }
+justify-content: left;
+padding: 10px;
+margin: 0 auto;
+width: auto;
+}
 }
 .redes img{
 width: 30px;
@@ -44,6 +39,7 @@ height: 30px;
 .footer-final {
 display: block;
 text-align: center;
+width: 100%;
 padding: 20px;
 background: $cor-p3;
 border-top: 1px solid $cor-8;
