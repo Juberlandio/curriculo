@@ -17,7 +17,10 @@ border: 2px solid transparent;
 position: relative;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 7px;
 @include d(t) {
-  margin: 20px;
+  display: block;
+  max-width: 100%;
+  margin: 30px 20px 83px 20px;
+  padding: 0px;
  }
 }
 .redes {
@@ -27,6 +30,12 @@ gap: 10px;
 justify-content: space-between;
 align-items: center;
 color: $cor-11;
+@include d(t) {
+  justify-content: left;
+  padding: 10px;
+  margin: 0 auto;
+  width: auto;
+ }
 }
 .redes img{
 width: 30px;

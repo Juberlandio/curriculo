@@ -10,7 +10,7 @@ margin-right: auto;
 @include d(t) {
 margin: 20px;
 }
-@include d(m) {
+@include d(t) {
 max-width: 100%;
 display: block;
 }
@@ -105,7 +105,7 @@ border-left-color: #1C92FF;
 }
 }
 .left-columns {
-width: 400px;
+max-width: 400px;
 border-radius: 10px;
 box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
 border: 1px solid $cor-p1;
@@ -113,7 +113,7 @@ box-sizing: border-box;
 margin-top: 30px;
 margin-left: auto;
 margin-right: auto;
-@include d(m) {
+@include d(t) {
 max-width: 100%;
 }
 }
@@ -130,24 +130,27 @@ color: $cor-11;
 padding-top: 12px;
 }
 .left-columns ul {
-width: auto;
-padding: 36px 100px 59px 99px;
+width: 190px;
+padding: 36px 110px 59px 99px;
 position: relative;
 line-height: 1;
 color: $cor-11;
-@include d(m) {
+@include d(t) {
 padding: 20px;
-text-align: center;
+text-align: left;
 }
 } 
+.left-columns ul li {
+  width: 100%;
+  } 
 .left-columns h2 {
 text-transform: uppercase;
 color: $cor-p2;
 padding: 50px 0px 0 76px;
 font-weight: 900;
-@include d(m) {
-padding: 40px 0 0 0;
-text-align: center;
+@include d(t) {
+padding: 40px 20px 0px 20px;
+text-align: left;
 }
 }
 .left-columns ul:after {
@@ -181,22 +184,21 @@ box-sizing: border-box;
 margin-top: 30px;
 margin-left: auto;
 margin-right: auto;
-@include d(m) {
-max-width: 100%;
+@include d(t) {
+width: 100%;
 }
 }
 .right-columns .lista {
 padding: 35px 72px 0 99px;
-@include d(m) {
-  padding: 20px;
-
-  }
+@include d(t) {
+padding: 20px;
+}
 }
 .right-columns .lista-2 {
 padding: 44px 72px 43px 99px;
-@include d(m) {
-  padding: 20px;
-  }
+@include d(t) {
+padding: 20px;
+}
 }
 .colunas .right-columns + .right-columns { 
 margin-top: 30px;
@@ -206,10 +208,10 @@ text-transform: uppercase;
 color: $cor-p2;
 padding: 50px 0px 0 76px;
 font-weight: 900;
-@include d(m) {
-  padding: 20px 0 0 0;
-  text-align: center;
-  }
+@include d(t) {
+padding: 40px 20px 0px 20px;
+text-align: left;
+}
 }
 .right-columns .lista {
 position: relative;
@@ -256,7 +258,7 @@ color: $cor-11;
 padding-top: 10px;
 max-width: 469px;
 color: $cor-11;
-@include d(m) {
+@include d(t) {
 max-width: 100%;
 }
 }
@@ -284,7 +286,10 @@ position: absolute;
 place-self: flex-start;
 }
 .right-columns .formacao-container{
-padding: 46px 72px 75px 99px;
+padding: 46px 72px 77px 99px;
+@include d(t) {
+  padding: 20px;
+}
 }
 .right-columns .formacao h3 {
 position: relative;

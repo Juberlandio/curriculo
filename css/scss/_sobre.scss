@@ -10,7 +10,8 @@ border: 2px solid transparent;
 position: relative;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 7px;
 @include d(t) {
-  margin: 20px;
+max-width: 100%;
+margin: 20px;
 }
 }
 .sobre h2 {
@@ -18,9 +19,9 @@ color: $cor-p2;
 padding: 40px 0px 0px 75px;
 text-transform: uppercase;
 font-weight: 900;
-@include d(m) {
-  padding: 40px 0 0 0;
-  text-align: center;
+@include d(t) {
+padding: 40px 20px 0px 20px;
+text-align: left;
 }
 }
 .sobre p {
@@ -29,9 +30,9 @@ padding: 20px 0 53px 99px;
 letter-spacing: 1.5px;
 position: relative;
 max-width: 909px;
-@include d(m) {
-  max-width: 100%;
-  padding: 20px;
+@include d(t) {
+max-width: 100%;
+padding: 20px;
 }
 }
 .sobre p:after {
@@ -47,7 +48,7 @@ transition: 0.3s;
 position: absolute;
 border-radius: 10px;
 @include d(t) {
-  display: none;
+display: none;
 }
 }
 .sobre::before {
