@@ -4,7 +4,9 @@ label{
   -webkit-touch-callout: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  padding:0px;
+  @include d(m) {
+    padding-top: 30px;
+  }
 }
 .switch {
 --toggle-size: 1;
@@ -621,7 +623,6 @@ bottom: -8px;
 }
 label{
   position: relative;
-  margin-bottom: 50px;
 }
 label::after{
   content: 'Clique Aqui ☝';
