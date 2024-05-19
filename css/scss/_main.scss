@@ -360,9 +360,9 @@ position: relative;
 .right-columns .lista-pos:after {
 content: "";
 left: -24px;
-top: 40px;
+top: 55px;
 width: 8px;
-height: calc(100% - 28px);
+height: calc(100% - 40px);
 background: $cor-p1;
 display: block;
 margin-top: 0px;
@@ -371,8 +371,8 @@ position: absolute;
 border-radius: 10px;
 @include d(s) {
 left: -20px;
-top: 50px;
+top: 60px;
 width: 8px;
-height: calc(100% - 48px);
+height: calc(100% - 58px);
 }
 }
