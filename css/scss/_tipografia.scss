@@ -1,14 +1,17 @@
 .font-2-xs {
   font: 500 1rem/1.5625 "Roboto", sans-serif;
+  letter-spacing: 1.3px;
 }
 .font-2-s {
   font: 600 1.25rem/1 "Roboto", sans-serif;
+  letter-spacing: 1.3px;
   // @include d(m) {
   //   font-size: 1.4rem;
   // }
 }
 .font-1-xx {
   font: 600 1.125rem/1 "Poppins", sans-serif;
+  letter-spacing: 1.3px;
   // @include d(s) {
   //   font-size: 1.745rem;
   // }
@@ -18,6 +21,7 @@
 }
 .font-1-xxl {
   font: 600 1.25rem/1 "Poppins", sans-serif;
+  letter-spacing: 1.3px;
   // @include d(s) {
   //   font-size: 1.745rem;
   // }
