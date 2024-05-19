@@ -20,6 +20,7 @@ color: $cor-p2;
 padding: 40px 0px 0px 50px;
 text-transform: uppercase;
 font-weight: 900;
+transition: 0.3s;
 @include d(s) {
 padding: 20px 20px 0px 20px;
 text-align: left;
@@ -31,6 +32,7 @@ padding: 20px 0 53px 76px;
 letter-spacing: 1.5px;
 position: relative;
 max-width: 909px;
+transition: 0.3s;
 @include d(s) {
 max-width: 100%;
 padding: 20px 20px 20px 40px;

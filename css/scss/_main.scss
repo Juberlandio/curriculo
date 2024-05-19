@@ -112,6 +112,7 @@ margin-top: 30px;
 margin-left: auto;
 margin-right: auto;
 display: block;
+transition: 0.3s;
 @include d(s) {
 width: 100%;
 }
@@ -133,6 +134,7 @@ padding: 36px 0px 59px 76px;
 position: relative;
 line-height: 1;
 color: $cor-11;
+transition: 0.3s;
 @include d(s) {
 padding: 20px 20px 20px 40px;
 text-align: left;
@@ -150,6 +152,7 @@ font-weight: 900;
 @include d(s) {
 padding: 20px 20px 0px 20px;
 text-align: left;
+transition: 0.3s;
 }
 }
 .left-columns ul:after {
@@ -187,6 +190,7 @@ margin-top: 30px;
 margin-left: auto;
 margin-right: auto;
 display: block;
+transition: 0.3s;
 @include d(s) {
 width: 100%;
 }
@@ -205,6 +209,7 @@ text-transform: uppercase;
 color: $cor-p2;
 padding: 40px 0px 0px 50px;
 font-weight: 900;
+transition: 0.3s;
 @include d(s) {
 padding: 20px 20px 0px 20px;
 text-align: left;
@@ -281,11 +286,13 @@ position: absolute;
 .right-columns h4 {
 padding-top: 17px;
 color: $cor-11;
+transition: 0.3s;
 }
 .right-columns p {
 padding-top: 10px;
 max-width: 469px;
 color: $cor-11;
+transition: 0.3s;
 @include d(s) {
 max-width: 100%;
 }
@@ -323,14 +330,17 @@ padding: 20px 20px 20px 40px;
 position: relative;
 color: $cor-11;
 font-weight: 400;
+transition: 0.3s;
 }
 .right-columns .formacao .lista-pos h3 {
 padding-top: 69px;
 font-weight: 400;
+transition: 0.3s;
 }
 .right-columns .formacao p {
 padding-top: 10px;
 width: 469px;
+transition: 0.3s;
 }
 .right-columns .lista-formacao {
 position: relative;

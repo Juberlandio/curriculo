@@ -15,6 +15,7 @@ box-sizing: border-box;
 max-width: 1070px;
 margin-left: auto;
 margin-right: auto;
+transition: 0.3s;
 @include d(s) {
 display: block;
 max-width: 100%;
@@ -29,6 +30,7 @@ gap: 10px;
 justify-content: space-between;
 align-items: center;
 color: $cor-11;
+transition: 0.3s;
 @include d(s) {
 justify-content: left;
 padding: 10px;

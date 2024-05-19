@@ -16,8 +16,6 @@ padding: 65px 0px 65px 0px;
 position: relative;
 box-sizing: border-box;
 max-width: 1200px;
-padding-left: 20px;
-padding-right: 20px;
 margin-left: auto;
 margin-right: auto;
 @include d(s) {
@@ -80,8 +78,8 @@ position: absolute;
 }
 .dados {
 padding: 30px;
-@include d(s) {
-padding: 0px 0px 80px 0px;
+@include d(f) {
+padding: 30px 30px 80px 30px;
 display: block;
 }
 }
