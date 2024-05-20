@@ -34,11 +34,12 @@ z-index: -1;
 animation: animacao 2.7s linear forwards;
 animation-delay: 3s;
 }
-@keyframes animacao{
+
+@keyframes animacao {
 0%{
 width: 0;
 height: 0;
-border-top-color: #2271BB;
+border-top-color: $cor-p1;
 border-right-color: transparent;
 border-bottom-color: transparent;
 border-left-color: transparent;
@@ -46,16 +47,16 @@ border-left-color: transparent;
 50%{
 width: 100%;
 height: 0;
-border-top-color: #2271BB;
-border-right-color: #2271BB;
+border-top-color: $cor-p1;
+border-right-color: $cor-p1;
 border-bottom-color: transparent;
 border-left-color: transparent;
 }
 100%{
 width: 100%;
 height: 100%;
-border-top-color: #2271BB;
-border-right-color: #2271BB;
+border-top-color: $cor-p1;
+border-right-color: $cor-p1;
 border-bottom-color: transparent;
 border-left-color: transparent;
 }
@@ -75,7 +76,6 @@ z-index: -1;
 .colunas section::after{
 animation: animacao2 2.7s linear forwards;
 animation-delay: 3s;
-
 }
 @keyframes animacao2{
 0%{
@@ -84,25 +84,30 @@ height: 0;
 border-top-color: transparent;
 border-right-color: transparent;
 border-bottom-color: transparent;
-border-left-color: #2271BB;
+border-left-color: $cor-p1;
 }
 50%{
 width: 0;
 height: 100%;
 border-top-color: transparent;
 border-right-color: transparent;
-border-bottom-color: #2271BB;
-border-left-color: #2271BB;
+border-bottom-color: $cor-p1;
+border-left-color: $cor-p1;
 }
 100%{
 width: 100%;
 height: 100%;
 border-top-color: transparent;
 border-right-color: transparent;
-border-bottom-color: #2271BB;
-border-left-color: #2271BB;
+border-bottom-color: $cor-p1;
+border-left-color: $cor-p1;
 }
 }
+
+
+
+
+
 .columns-container-left {
 place-self: flex-start;
 @include d(s) {
