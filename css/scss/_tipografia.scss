@@ -3,8 +3,12 @@ font: 500 1rem/1.5625 "Roboto", sans-serif;
 letter-spacing: 1.3px;
 }
 .font-2-xf {
-font: 500 0.8rem/1.5625 "Roboto", sans-serif;
+font: 500 1rem/1.5625 "Roboto", sans-serif;
+letter-spacing: 1.3px;
+@include d(s) {
+font-size: 0.8rem;
 letter-spacing: 0.8px;
+}
 }
 .font-2-s {
 font: 600 1.25rem/1 "Roboto", sans-serif;
