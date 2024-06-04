@@ -25,9 +25,9 @@ text-align: center;
 }
 }
 .contato picture img{
-width: 230px;
-height: 230px;
+max-width: 230px;
 z-index: 3;
+object-fit: cover;
 }
 .contato {
 display: flex;
