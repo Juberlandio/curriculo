@@ -330,9 +330,9 @@ width: 100%;
 }
 }
 .right-columns .formacao-container{
-padding: 30px 0 51px 76px;
+padding: 50px 0 51px 76px;
 @include d(s) {
-padding: 20px 20px 20px 40px;
+padding: 35px 20px 20px 40px;
 }
 }
 .right-columns .formacao h3 {
@@ -342,9 +342,10 @@ transition: 0.3s;
 font-size: 1rem;
 }
 .right-columns .formacao .lista-pos h3 {
-padding-top: 69px;
+padding-top: 49px;
 transition: 0.3s;
 font-size: 1rem;
+
 }
 .right-columns .formacao p {
 padding-top: 10px;
@@ -379,8 +380,8 @@ position: relative;
 content: "";
 left: -24px;
 width: 8px;
-height: calc(100% + -65px);
-top: 65px;
+height: calc(100% + -43px);
+top: 45px;
 background: $cor-p1;
 display: block;
 margin-top: 0px;
@@ -389,8 +390,8 @@ position: absolute;
 border-radius: 10px;
 @include d(s) {
 left: -20px;
-top: 60px;
+top: 45px;
 width: 8px;
-height: calc(100% - 58px);
+height: calc(100% -43px);
 }
 }
